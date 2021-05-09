@@ -39,6 +39,8 @@ In this repo, there are a number of scripts to generate the required data to tra
 - [`dataloader_ae`](https://github.com/fatemeh-slh/ArTIST/blob/main/utils/dataloader_ae.py) and [`dataloader_ar`](https://github.com/fatemeh-slh/ArTIST/blob/main/utils/dataloader_ar.py): Given the post-processes version of the dataset dictionary (which can be done by running the [`post_process`](https://github.com/fatemeh-slh/ArTIST/blob/main/utils/post_process.py) script), these two scripts define the dataloaders for training the MA-Net and ArTIST. Note that the dataloader of ArTIST uses the MA-Net to compute the social information. This can also be done jointly in an end-to-end fashion, which we observed almost no difference.
 - [`create_demo_test_subset`](https://github.com/fatemeh-slh/ArTIST/blob/main/utils/create_demo_test_subset.py): In order to run the demo scripts, you need to run this script. However, the demo test subset has been produced and stored in [`data/demo_test_subset.npy`](https://github.com/fatemeh-slh/ArTIST/blob/main/data/demo_test_subset.npy).
 
+### Data
+You can download the required data from the [Release](https://github.com/fatemeh-slh/ArTIST/releases/tag/data-release) and put it in `data/` directory.
 
 ## Citation
 If you find this work useful in your own research, please consider citing:
