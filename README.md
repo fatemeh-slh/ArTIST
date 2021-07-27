@@ -1,4 +1,4 @@
-# Probabilistic Tracklet Scoring and Inpainting for Multiple Object Tracking (CVPR 2021)
+# [Probabilistic Tracklet Scoring and Inpainting for Multiple Object Tracking](https://openaccess.thecvf.com/content/CVPR2021/papers/Saleh_Probabilistic_Tracklet_Scoring_and_Inpainting_for_Multiple_Object_Tracking_CVPR_2021_paper.pdf) (CVPR 2021)
 Pytorch implementation of the ArTIST motion model. In this repo, there are
 
 - Training [script](https://github.com/fatemeh-slh/ArTIST/blob/main/train_ae.py) for the Moving Agent network
